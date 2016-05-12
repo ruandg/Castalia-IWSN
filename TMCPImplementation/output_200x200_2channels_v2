@@ -1,0 +1,138 @@
+# Coordenadas dos sink nodes
+SN.node[0].xCoor = 100
+SN.node[0].yCoor = 100
+SN.node[0].zCoor = 1
+
+SN.node[1].xCoor = 100
+SN.node[1].yCoor = 100
+SN.node[1].zCoor = 1
+
+
+# Coordenadas dos end nodes/routers
+SN.node[2].xCoor = 92
+SN.node[2].yCoor = 171
+SN.node[2].zCoor = 1
+
+SN.node[3].xCoor = 53
+SN.node[3].yCoor = 186
+SN.node[3].zCoor = 1
+
+SN.node[4].xCoor = 189
+SN.node[4].yCoor = 56
+SN.node[4].zCoor = 1
+
+SN.node[5].xCoor = 102
+SN.node[5].yCoor = 22
+SN.node[5].zCoor = 1
+
+SN.node[6].xCoor = 173
+SN.node[6].yCoor = 199
+SN.node[6].zCoor = 1
+
+SN.node[7].xCoor = 179
+SN.node[7].yCoor = 50
+SN.node[7].zCoor = 1
+
+SN.node[8].xCoor = 151
+SN.node[8].yCoor = 101
+SN.node[8].zCoor = 1
+
+SN.node[9].xCoor = 96
+SN.node[9].yCoor = 166
+SN.node[9].zCoor = 1
+
+SN.node[10].xCoor = 140
+SN.node[10].yCoor = 161
+SN.node[10].zCoor = 1
+
+SN.node[11].xCoor = 65
+SN.node[11].yCoor = 13
+SN.node[11].zCoor = 1
+
+SN.node[12].xCoor = 104
+SN.node[12].yCoor = 110
+SN.node[12].zCoor = 1
+
+SN.node[13].xCoor = 91
+SN.node[13].yCoor = 26
+SN.node[13].zCoor = 1
+
+SN.node[14].xCoor = 150
+SN.node[14].yCoor = 13
+SN.node[14].zCoor = 1
+
+SN.node[15].xCoor = 77
+SN.node[15].yCoor = 26
+SN.node[15].zCoor = 1
+
+SN.node[16].xCoor = 61
+SN.node[16].yCoor = 199
+SN.node[16].zCoor = 1
+
+SN.node[17].xCoor = 52
+SN.node[17].yCoor = 150
+SN.node[17].zCoor = 1
+
+SN.node[18].xCoor = 198
+SN.node[18].yCoor = 183
+SN.node[18].zCoor = 1
+
+SN.node[19].xCoor = 45
+SN.node[19].yCoor = 18
+SN.node[19].zCoor = 1
+
+SN.node[20].xCoor = 54
+SN.node[20].yCoor = 46
+SN.node[20].zCoor = 1
+
+
+# Frequência (canal) dos sink nodes
+SN.node[0].Communication.Radio.carrierFreq = 2405
+SN.node[1].Communication.Radio.carrierFreq = 2410
+
+# Frequência (canal) dos end nodes/routers
+SN.node[2].Communication.Radio.carrierFreq = 2405
+SN.node[3].Communication.Radio.carrierFreq = 2410
+SN.node[4].Communication.Radio.carrierFreq = 2405
+SN.node[5].Communication.Radio.carrierFreq = 2410
+SN.node[6].Communication.Radio.carrierFreq = 2410
+SN.node[7].Communication.Radio.carrierFreq = 2405
+SN.node[8].Communication.Radio.carrierFreq = 2410
+SN.node[9].Communication.Radio.carrierFreq = 2405
+SN.node[10].Communication.Radio.carrierFreq = 2405
+SN.node[11].Communication.Radio.carrierFreq = 2410
+SN.node[12].Communication.Radio.carrierFreq = 2410
+SN.node[13].Communication.Radio.carrierFreq = 2405
+SN.node[14].Communication.Radio.carrierFreq = 2410
+SN.node[15].Communication.Radio.carrierFreq = 2405
+SN.node[16].Communication.Radio.carrierFreq = 2405
+SN.node[17].Communication.Radio.carrierFreq = 2410
+SN.node[18].Communication.Radio.carrierFreq = 2410
+SN.node[19].Communication.Radio.carrierFreq = 2410
+SN.node[20].Communication.Radio.carrierFreq = 2405
+
+#Matriz de conexões 
+int nchannels = 2;
+int matriz[23][23] = {{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};

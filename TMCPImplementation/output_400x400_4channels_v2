@@ -1,0 +1,330 @@
+# Coordenadas dos sink nodes
+SN.node[0].xCoor = 200
+SN.node[0].yCoor = 200
+SN.node[0].zCoor = 1
+
+SN.node[1].xCoor = 200
+SN.node[1].yCoor = 200
+SN.node[1].zCoor = 1
+
+SN.node[2].xCoor = 200
+SN.node[2].yCoor = 200
+SN.node[2].zCoor = 1
+
+SN.node[3].xCoor = 200
+SN.node[3].yCoor = 200
+SN.node[3].zCoor = 1
+
+
+# Coordenadas dos end nodes/routers
+SN.node[4].xCoor = 142
+SN.node[4].yCoor = 265
+SN.node[4].zCoor = 1
+
+SN.node[5].xCoor = 313
+SN.node[5].yCoor = 73
+SN.node[5].zCoor = 1
+
+SN.node[6].xCoor = 184
+SN.node[6].yCoor = 221
+SN.node[6].zCoor = 1
+
+SN.node[7].xCoor = 88
+SN.node[7].yCoor = 77
+SN.node[7].zCoor = 1
+
+SN.node[8].xCoor = 154
+SN.node[8].yCoor = 11
+SN.node[8].zCoor = 1
+
+SN.node[9].xCoor = 82
+SN.node[9].yCoor = 170
+SN.node[9].zCoor = 1
+
+SN.node[10].xCoor = 377
+SN.node[10].yCoor = 386
+SN.node[10].zCoor = 1
+
+SN.node[11].xCoor = 298
+SN.node[11].yCoor = 257
+SN.node[11].zCoor = 1
+
+SN.node[12].xCoor = 385
+SN.node[12].yCoor = 241
+SN.node[12].zCoor = 1
+
+SN.node[13].xCoor = 332
+SN.node[13].yCoor = 69
+SN.node[13].zCoor = 1
+
+SN.node[14].xCoor = 72
+SN.node[14].yCoor = 92
+SN.node[14].zCoor = 1
+
+SN.node[15].xCoor = 81
+SN.node[15].yCoor = 371
+SN.node[15].zCoor = 1
+
+SN.node[16].xCoor = 172
+SN.node[16].yCoor = 370
+SN.node[16].zCoor = 1
+
+SN.node[17].xCoor = 296
+SN.node[17].yCoor = 0
+SN.node[17].zCoor = 1
+
+SN.node[18].xCoor = 336
+SN.node[18].yCoor = 104
+SN.node[18].zCoor = 1
+
+SN.node[19].xCoor = 25
+SN.node[19].yCoor = 371
+SN.node[19].zCoor = 1
+
+SN.node[20].xCoor = 304
+SN.node[20].yCoor = 365
+SN.node[20].zCoor = 1
+
+SN.node[21].xCoor = 209
+SN.node[21].yCoor = 52
+SN.node[21].zCoor = 1
+
+SN.node[22].xCoor = 370
+SN.node[22].yCoor = 46
+SN.node[22].zCoor = 1
+
+SN.node[23].xCoor = 128
+SN.node[23].yCoor = 115
+SN.node[23].zCoor = 1
+
+SN.node[24].xCoor = 251
+SN.node[24].yCoor = 204
+SN.node[24].zCoor = 1
+
+SN.node[25].xCoor = 25
+SN.node[25].yCoor = 19
+SN.node[25].zCoor = 1
+
+SN.node[26].xCoor = 167
+SN.node[26].yCoor = 268
+SN.node[26].zCoor = 1
+
+SN.node[27].xCoor = 164
+SN.node[27].yCoor = 394
+SN.node[27].zCoor = 1
+
+SN.node[28].xCoor = 259
+SN.node[28].yCoor = 211
+SN.node[28].zCoor = 1
+
+SN.node[29].xCoor = 241
+SN.node[29].yCoor = 266
+SN.node[29].zCoor = 1
+
+SN.node[30].xCoor = 303
+SN.node[30].yCoor = 377
+SN.node[30].zCoor = 1
+
+SN.node[31].xCoor = 279
+SN.node[31].yCoor = 17
+SN.node[31].zCoor = 1
+
+SN.node[32].xCoor = 292
+SN.node[32].yCoor = 328
+SN.node[32].zCoor = 1
+
+SN.node[33].xCoor = 345
+SN.node[33].yCoor = 351
+SN.node[33].zCoor = 1
+
+SN.node[34].xCoor = 329
+SN.node[34].yCoor = 65
+SN.node[34].zCoor = 1
+
+SN.node[35].xCoor = 143
+SN.node[35].yCoor = 249
+SN.node[35].zCoor = 1
+
+SN.node[36].xCoor = 191
+SN.node[36].yCoor = 282
+SN.node[36].zCoor = 1
+
+SN.node[37].xCoor = 222
+SN.node[37].yCoor = 328
+SN.node[37].zCoor = 1
+
+SN.node[38].xCoor = 307
+SN.node[38].yCoor = 27
+SN.node[38].zCoor = 1
+
+SN.node[39].xCoor = 136
+SN.node[39].yCoor = 235
+SN.node[39].zCoor = 1
+
+SN.node[40].xCoor = 6
+SN.node[40].yCoor = 236
+SN.node[40].zCoor = 1
+
+SN.node[41].xCoor = 252
+SN.node[41].yCoor = 99
+SN.node[41].zCoor = 1
+
+SN.node[42].xCoor = 98
+SN.node[42].yCoor = 247
+SN.node[42].zCoor = 1
+
+SN.node[43].xCoor = 375
+SN.node[43].yCoor = 271
+SN.node[43].zCoor = 1
+
+SN.node[44].xCoor = 154
+SN.node[44].yCoor = 382
+SN.node[44].zCoor = 1
+
+SN.node[45].xCoor = 90
+SN.node[45].yCoor = 230
+SN.node[45].zCoor = 1
+
+SN.node[46].xCoor = 166
+SN.node[46].yCoor = 362
+SN.node[46].zCoor = 1
+
+SN.node[47].xCoor = 216
+SN.node[47].yCoor = 290
+SN.node[47].zCoor = 1
+
+SN.node[48].xCoor = 45
+SN.node[48].yCoor = 172
+SN.node[48].zCoor = 1
+
+SN.node[49].xCoor = 310
+SN.node[49].yCoor = 391
+SN.node[49].zCoor = 1
+
+SN.node[50].xCoor = 353
+SN.node[50].yCoor = 145
+SN.node[50].zCoor = 1
+
+SN.node[51].xCoor = 135
+SN.node[51].yCoor = 246
+SN.node[51].zCoor = 1
+
+SN.node[52].xCoor = 309
+SN.node[52].yCoor = 287
+SN.node[52].zCoor = 1
+
+
+# Frequência (canal) dos sink nodes
+SN.node[0].Communication.Radio.carrierFreq = 2405
+SN.node[1].Communication.Radio.carrierFreq = 2410
+SN.node[2].Communication.Radio.carrierFreq = 2415
+SN.node[3].Communication.Radio.carrierFreq = 2420
+
+# Frequência (canal) dos end nodes/routers
+SN.node[4].Communication.Radio.carrierFreq = 2415
+SN.node[5].Communication.Radio.carrierFreq = 2405
+SN.node[6].Communication.Radio.carrierFreq = 2410
+SN.node[7].Communication.Radio.carrierFreq = 2415
+SN.node[8].Communication.Radio.carrierFreq = 2415
+SN.node[9].Communication.Radio.carrierFreq = 2415
+SN.node[10].Communication.Radio.carrierFreq = 2410
+SN.node[11].Communication.Radio.carrierFreq = 2415
+SN.node[12].Communication.Radio.carrierFreq = 2405
+SN.node[13].Communication.Radio.carrierFreq = 2405
+SN.node[14].Communication.Radio.carrierFreq = 2415
+SN.node[15].Communication.Radio.carrierFreq = 2410
+SN.node[16].Communication.Radio.carrierFreq = 2410
+SN.node[17].Communication.Radio.carrierFreq = 2415
+SN.node[18].Communication.Radio.carrierFreq = 2405
+SN.node[19].Communication.Radio.carrierFreq = 2410
+SN.node[20].Communication.Radio.carrierFreq = 2420
+SN.node[21].Communication.Radio.carrierFreq = 2415
+SN.node[22].Communication.Radio.carrierFreq = 2405
+SN.node[23].Communication.Radio.carrierFreq = 2415
+SN.node[24].Communication.Radio.carrierFreq = 2415
+SN.node[25].Communication.Radio.carrierFreq = 2415
+SN.node[26].Communication.Radio.carrierFreq = 2420
+SN.node[27].Communication.Radio.carrierFreq = 2415
+SN.node[28].Communication.Radio.carrierFreq = 2405
+SN.node[29].Communication.Radio.carrierFreq = 2410
+SN.node[30].Communication.Radio.carrierFreq = 2420
+SN.node[31].Communication.Radio.carrierFreq = 2415
+SN.node[32].Communication.Radio.carrierFreq = 2410
+SN.node[33].Communication.Radio.carrierFreq = 2405
+SN.node[34].Communication.Radio.carrierFreq = 2405
+SN.node[35].Communication.Radio.carrierFreq = 2415
+SN.node[36].Communication.Radio.carrierFreq = 2420
+SN.node[37].Communication.Radio.carrierFreq = 2420
+SN.node[38].Communication.Radio.carrierFreq = 2415
+SN.node[39].Communication.Radio.carrierFreq = 2405
+SN.node[40].Communication.Radio.carrierFreq = 2420
+SN.node[41].Communication.Radio.carrierFreq = 2415
+SN.node[42].Communication.Radio.carrierFreq = 2410
+SN.node[43].Communication.Radio.carrierFreq = 2410
+SN.node[44].Communication.Radio.carrierFreq = 2420
+SN.node[45].Communication.Radio.carrierFreq = 2420
+SN.node[46].Communication.Radio.carrierFreq = 2415
+SN.node[47].Communication.Radio.carrierFreq = 2410
+SN.node[48].Communication.Radio.carrierFreq = 2410
+SN.node[49].Communication.Radio.carrierFreq = 2405
+SN.node[50].Communication.Radio.carrierFreq = 2405
+SN.node[51].Communication.Radio.carrierFreq = 2405
+SN.node[52].Communication.Radio.carrierFreq = 2405
+
+#Matriz de conexões 
+int nchannels = 4;
+int matriz[55][55] = {{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};
