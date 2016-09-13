@@ -39,6 +39,10 @@ void WirelessChannel::initialize(int stage)
 	RNG_reset(4357U);
 	srand(time(NULL));
 	
+	this->meanTimeChange = par("meanTimeChange").doubleValue();
+	this->probabilityChange = 1.0/this->meanTimeChange;
+	this->timeAnt = simTime();
+	
 	if (stage == 0) {
 		readIniFileParameters();
 		return;
@@ -404,10 +408,13 @@ void WirelessChannel::handleMessage(cMessage * msg)
 
 			WirelessChannelSignalBegin *signalMsg =
 			    check_and_cast <WirelessChannelSignalBegin*>(msg);
-				
-//			updateChannel(0.08); //execute the markov chain to change the distribution parameters
-			updateChannel(0.01); //execute the markov chain to change the distribution parameters
 			
+			currentTime = simTime();
+			if((currentTime - timeAnt) >= 60) {
+				updateChannel(probabilityChange); //execute the markov chain to change the distribution parameters
+				timeAnt = currentTime;
+			}
+				
 			int srcAddr = signalMsg->getNodeID();
 			int receptioncount = 0;			
 						
@@ -724,7 +731,7 @@ bool WirelessChannel::updateChannel(double p) {
     std::random_device rd;
     std::normal_distribution<> gaussian(0,sigma);
 	std::mt19937 gen(rd());
-		
+	p = p*100.0;
 	x = rand()%((int)(100.0/p));
 //	trace() << "Valor sorteado: x=" << x;
 	if(!pri || x == 0 || simTime() == 0) {

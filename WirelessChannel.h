@@ -23,6 +23,8 @@
 
 using namespace std;
 
+#define CHANGE_PARAMETERS 99
+
 class PathLossElement {
  public:
 	int cellID;
@@ -98,6 +100,10 @@ class WirelessChannel: public CastaliaModule {
 	/*--- variables corresponding to the new channel model---*/
 	double *varrice; 
 	double *meanrice;
+	
+	double meanTimeChange;
+	double probabilityChange;
+	simtime_t timeAnt, currentTime;
 	
  protected:
 	virtual void initialize(int);
