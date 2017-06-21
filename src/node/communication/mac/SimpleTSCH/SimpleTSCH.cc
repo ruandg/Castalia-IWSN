@@ -69,7 +69,7 @@ void SimpleTSCH::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
 	
 	if(macPkt->getKindTSCH() == ACK_PACKET && macPkt->getDestination() == SELF_MAC_ADDRESS) {
 		//verifica qual o ack que chegou...		
-		trace() << "Received ack for packet " << macPkt->getSequenceNumber();
+		//trace() << "Received ack for packet " << macPkt->getSequenceNumber();
 		if(buffer_ret.size() > 0 && macPkt->getSequenceNumber() == buffer_ret.front()->packet->getSequenceNumber()) {
 			//packet_ret *pr = buffer_ret.front();
 			buffer_ret.pop_front();
@@ -88,7 +88,8 @@ void SimpleTSCH::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
 	    //macPkt->getDestination() == BROADCAST_MAC_ADDRESS)
 	{		
 		
-		trace() << "Received packet: " << macPkt->getSequenceNumber() << "  from: " << macPkt->getSource() << " Power: " << rssi;
+		//trace() << "Received packet: " << macPkt->getSequenceNumber() << " through " <<macPkt->getSource() << " Power: " << rssi << " " << macPkt->getSource();
+		trace() << "Received packet at sink node: " << macPkt->getSequenceNumber() << " Through:  " << macPkt->getSource() << " Power: " << rssi << " from: " << macPkt->getSource(); 
 		
 		macFrameAck = new SimpleTSCHPacket("SimpleTSCH ACK packet", MAC_LAYER_PACKET);
 		macFrameAck->setSource(SELF_MAC_ADDRESS);
@@ -116,7 +117,7 @@ void SimpleTSCH::timerFiredCallback(int index)
 			break;
 	    }
 		case SEND_ACK: {
-			trace() << "Sending ack for packet: " << macFrameAck->getSequenceNumber();
+			//trace() << "Sending ack for packet: " << macFrameAck->getSequenceNumber();
 			toRadioLayer(macFrameAck);
 			toRadioLayer(createRadioCommand(SET_STATE, TX));
 			//delete macFrameAck;
@@ -132,7 +133,10 @@ void SimpleTSCH::timerFiredCallback(int index)
 			radioCmd->setKind(RADIO_CONTROL_COMMAND);
 			radioCmd->setRadioControlCommandKind(SET_CARRIER_FREQ);
 			
-			int indch = ((int)(allocatedSlots[slotCont]-'0') + (ASN/superFrameSize))%16;
+			//int indch = ((int)(allocatedSlots[slotCont]-'0') + (ASN/superFrameSize))%16;
+			//for star netowks only the Coordinator (node 0) receive packets. If a node with other ID receives the packet, it is necessary to sum the ID too.
+			//(ASN/superFrameSize) = SLOTFRAMECOUNTER
+			int indch = (ASN + (ASN/superFrameSize))%16;
 			
 			//double new_channel = 2405.0 + (ASN%16)*5;
 			double new_channel = 2405.0 + indch*5;
@@ -157,12 +161,12 @@ void SimpleTSCH::timerFiredCallback(int index)
 					pr2->packet->setAckReq(pr->packet->getAckReq());
 					pr2->packet->setKindTSCH(DATA_PACKET);
 					buffer_ret.push_back(pr2);
-					
+					trace () << "Listening to ack";
 					//trace() << "Colocando pacote para retransmissão depois da ret...";
 										
 				}	
 				
-				trace() << "Retransmittiing packet " << pr->packet->getSequenceNumber() << " on: " << indch << "  slot: " << slotCont;
+				trace() << "Retransmitting packet " << pr->packet->getSequenceNumber() << " on: " << indch << "  slot: " << slotCont;
 			//	pr->packet->setAckReq(false);
 				toRadioLayer(pr->packet);
 				toRadioLayer(createRadioCommand(SET_STATE, TX));
@@ -190,10 +194,10 @@ void SimpleTSCH::timerFiredCallback(int index)
 					pr->packet->setKindTSCH(DATA_PACKET);
 					pr->cont = 1;
 					buffer_ret.push_back(pr);
+					trace () << "Listening to ack";
 					//trace() << "Colocando pacote para retransmissão...";
 				}
-				trace() << "Transmittiing packet " << macFrame->getSequenceNumber() << " on: " << indch << "  slot: " << slotCont;
-				
+				trace() << "Transmitting packet " << macFrame->getSequenceNumber() << " on: " << indch << "  slot: " << slotCont;
 				toRadioLayer(macFrame);
 				toRadioLayer(createRadioCommand(SET_STATE, TX));
 			}

@@ -296,12 +296,12 @@ void CC2420Mac::fromNetworkLayer(cPacket *netPkt, int destination){
 		//trace() << "Sequence1: " << pr->sequenceNumber << " " << pr->packet->getSequenceNumber();
 		while(buffer_ret.size()>0)buffer_ret.pop_front();
 		buffer_ret.push_back(pr);
-		this->retCont = 0;
-		
+		this->retCont = 1;
+		trace () << "Listening to ack";
 	//	//trace() << "Colocando pacote para retransmissão...";
 	}
 	
-	trace() << "Transmittiing packet " << macPkt->getSequenceNumber();
+	trace() << "Transmitting packet " << macPkt->getSequenceNumber();
 	// Calls the Send.send command and sends the return value to the caller.
 	error_t err = command_Send_send(macPkt,m_cca) ;
 	return_Send_send(err) ;
@@ -472,7 +472,8 @@ void CC2420Mac::event_CC2420Receive_receive(cPacket * incoming_msg){
 
 
 		if(m_state == S_ACK_WAIT) {
-			trace() << "Ack received...";
+			//trace() << "Ack received...";
+			while(buffer_ret.size()>0)buffer_ret.pop_front();
 			//trace()<<"Ack frame, checking for pending send. Dsn sent:"<<(int)m_msg->getDsn()<<"  , dsn rx: "<<(int)ack_hdr->getDsn() ;
 		}
 		if ( m_state == S_ACK_WAIT && m_msg->getDsn() == ack_hdr->getDsn() ) {
@@ -498,7 +499,8 @@ void CC2420Mac::event_CC2420Receive_receive(cPacket * incoming_msg){
 
 			if(msg_hdr->getDest() == self || msg_hdr->getDest() == (uint16_t) BROADCAST_MAC_ADDRESS){
 			//	//trace()<<"For me! - "<<(int)msg_hdr->getDest()<<" , from: "<<(int)msg_hdr->getSrc() ;
-				trace() << "Received packet: " << msg_hdr->getSequenceNumber() << "  from: " << (int)msg_hdr->getSrc()  << " Power: " << msg_hdr->getMacRadioInfoExchange().RSSI ;
+				//trace() << "Received packet: " << msg_hdr->getSequenceNumber() << " through "<<(int)msg_hdr->getSrc() << " Power: " << msg_hdr->getMacRadioInfoExchange().RSSI << " " << (int)msg_hdr->getSrc();
+				trace() << "Received packet at sink node: " << msg_hdr->getSequenceNumber() << " Through:  " << (int)msg_hdr->getSrc() << " Power: " << msg_hdr->getMacRadioInfoExchange().RSSI << " from: " << (int)msg_hdr->getSrc(); 
 				
 				if(((msg_hdr->getFcf() >> IEEE154_FCF_ACK_REQ) & 0x01) == 1){
 					//trace()<<"Require ACK! - dsn: "<<(int)msg_hdr->getDsn();
@@ -526,7 +528,7 @@ void CC2420Mac::event_CC2420Receive_receive(cPacket * incoming_msg){
 					double txTime = ((double)((ack_reply->getByteLength()+PhyFrameOverhead) * 8.0f)) / datarate;
 					setTimer(ACK_SENT,tos32KhzToSeconds(CC2420_TIME_ACK_TURNAROUND)+txTime) ;
 					//trace()<<"Ack sent , turnaround and transmission set to: "<<(tos32KhzToSeconds(CC2420_TIME_ACK_TURNAROUND)+txTime);
-					trace() << "Sending ack...";
+					//trace() << "Sending ack...";
 				}
 				
 			}
@@ -680,12 +682,13 @@ void CC2420Mac::event_BackoffTimer_fired(){
 				pr2->packet->setSequenceNumber(pr->sequenceNumber);
 				pr2->sequenceNumber = pr->sequenceNumber;
 				buffer_ret.push_back(pr2);
+				trace () << "Listening to ack";
 			//	//trace() << "Colocando pacote para retransmissão depois da ret...";						
 			}	
 			buffer_ret.pop_front();
 			
 		//	m_msg->setMetaWasAcked(false) ; // our implementation
-			trace() << "Retransmittiing packet " << pr->sequenceNumber << "  Attempt: " << this->retCont;;
+			trace() << "Retransmitting packet " << pr->sequenceNumber << "  Attempt: " << this->retCont;;
 			
 			signalDone(SUCCESS) ;
 			error_t err = command_Send_send(pr->packet,m_cca) ;
